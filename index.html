@@ -7,17 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>📝 To-Do Web App</h1>
+  <div class="wrapper">
+    <header>
+      <h1>My To-Do List 📝</h1>
+      <p>Organize your daily tasks efficiently!</p>
+    </header>
 
-    <div class="task-input">
-      <input type="text" id="task" placeholder="Enter your task..." />
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Add new task..." />
       <input type="datetime-local" id="taskDate" />
-      <button id="addBtn">Add Task</button>
+      <button id="addTask">Add</button>
     </div>
 
     <ul id="taskList"></ul>
   </div>
+
+  <footer>
+    <p>Developed by SkillCraft Intern — <b>Bhavesh Marathe</b></p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
